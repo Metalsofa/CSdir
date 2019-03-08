@@ -26,9 +26,13 @@ Then you should be good to go!
 
 ## Usage
 The syntax for this script is as follows:
+
 `ds <hwnum>`
+
 For example, `ds 3` will take me to the directory for homework 3.
+
 If there is no such directory, it will ask whether you want to make a new one. If you do, and dsclone is set to `true`, it will ask for the link to the pdf associated with this homework, and then set up the directory automatically. It should also show you the converted pdf, and list the unzipped contents of the folder.
+
 If dsclone is set to `false`, it will simply make the directory and navigate you to it. If you have the instructional pdf and/or provided zipfile in your Data Structures directory, it will move those to the new directory and unzip/convert them.b
 
 ### Also
