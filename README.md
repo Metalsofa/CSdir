@@ -3,7 +3,7 @@ Bash script for easily downloading computer science course homework provided fil
 
 This script does nothing other than file management, conversion, and navigation; it does not interfere with or aid in software development.
 
-Presently it only supports one CSCI class at a time; this will
+Presently it only supports one CSCI class at a time.
 
 ## Installation ##
 In bash, type the following commands from whatever directory you wish to install this to (mine is in the root because I'm lazy)
