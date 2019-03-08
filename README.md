@@ -8,9 +8,9 @@ Presently it only supports one CSCI class at a time.
 ## Installation ##
 In bash, type the following commands from whatever directory you wish to install this to (mine is in the root because I'm lazy)
 ~~~~
-$ git clone https://github.com/Metalsofa/CSdir
-$ cd CSdir
-$ chmod -x CSdir.sh
+git clone https://github.com/Metalsofa/CSdir
+cd CSdir
+chmod -x CSdir.sh
 ~~~~
 Then, in your `.bashrc` file, add the following line at the bottom (or wherever your put your aliases):
 ~~~~
