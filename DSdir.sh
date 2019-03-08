@@ -19,7 +19,7 @@ pdfstring="hw.pdf"
 # Set this to TRUE if you want to enable cloning files directly from the 
 # DS site, or FALSE if that scares you (no shame in that)
 dsclone=true
-
+#-------------------------------------
 
 if [ -d "$dsdir$hwstring$hwnum" ]; then
 	echo "Now navigating to Data Structures: Homework $hwnum"
