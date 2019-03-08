@@ -4,8 +4,10 @@ hwnum=$1
 vim=false
 
 #--------USER-SPECIFIC OPTIONS--------
-# Change this to your Data Structures path
-dsdir="/mnt/c/workshop++/ds/"
+# Change this to your Homework path for the concerned class
+dsdir="/mnt/c/cs/"
+# Change this to the name of your course
+coursename="Data Structures"
 # Change this to the string you use to prefix your homeworks.
 # If this is set to "hw", then it is assumed you name your homework folders
 # as "hw1", "hw2", and so on.
@@ -22,7 +24,7 @@ dsclone=true
 #-------------------------------------
 
 if [ -d "$dsdir$hwstring$hwnum" ]; then
-	echo "Now navigating to Data Structures: Homework $hwnum"
+	echo "Now navigating to $coursename: Homework $hwnum"
 	cd ~
 	cd $dsdir$hwstring$hwnum
 	#show the user wherest they are
@@ -47,7 +49,7 @@ else
 		if [[ ! $dsclone ]]; then
 			#Check if provided_files.zip is in the DS parent directory
 			if [ -f "$zipstring" ]; then
-				echo "Found $zipstring in Data Structures directory"
+				echo "Found $zipstring in $coursename directory"
 				echo "Moving $zipstring to Homework $hwnum directory"
 				mv "$zipstring" "$hwstring""$hwnum"/"$zipstring"
 				echo "Unzipping provided files..."
@@ -57,7 +59,7 @@ else
 			fi
 			#Check if hw.pdf is in the DS parent directory
 			if [[ -f "$pdfstring" ]]; then
-				echo "Found $pdfstring in Data Structures directory"
+				echo "Found $pdfstring in $coursename directory"
 				echo "Moving $pdfstring to Homework $hwnum directory"
 				mv "$pdfstring" "$hwstring""$hwnum"/"$pfdstring"
 				echo "Converting $pdfstring to a text file..."
