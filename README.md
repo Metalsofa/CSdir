@@ -1,4 +1,4 @@
-# CS Homework Directory Manager
+# CS Homework Directory Manager (Linux)
 Bash script for easily downloading computer science course homework provided files and making the associated directories, in addition to navigating to them quickly from anywhere.
 
 This script does nothing other than file management, conversion, and navigation; it does not interfere with or aid in software development.
