@@ -2,7 +2,7 @@
 Bash script for easily downloading Data Structures provided files and making the associated directories.
 
 ## Installation ##
-: In bash, type the following commands from whatever directory you wish to install this to (mine is in the root because I'm lazy)
+In bash, type the following commands from whatever directory you wish to install this to (mine is in the root because I'm lazy)
 ~~~~
 $ git clone https://github.com/Metalsofa/DSdir
 $ cd DSdir
