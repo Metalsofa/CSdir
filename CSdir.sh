@@ -5,7 +5,7 @@ vim=false
 
 #--------USER-SPECIFIC OPTIONS--------
 # Change this to your Homework path for the concerned class
-dsdir="/mnt/c/cs/"
+dsdir="/mnt/c/ds/"
 # Change this to the name of your course
 coursename="Data Structures"
 # Change this to the string you use to prefix your homeworks.
