@@ -1,5 +1,9 @@
 # DSdir
-Bash script for easily downloading Data Structures provided files and making the associated directories.
+Bash script for easily downloading computer science course homework provided files and making the associated directories, in addition to navigating to them quickly from anywhere.
+
+This script does nothing other than file management, conversion, and navigation; it does not interfere with or aid in software development.
+
+Presently it only supports one CSCI class at a time; this will
 
 ## Installation ##
 In bash, type the following commands from whatever directory you wish to install this to (mine is in the root because I'm lazy)
@@ -16,7 +20,7 @@ If you don't want to take up the name 'ds' for your aliases, you can change it t
 
 ### Customization
 Then it's time to make some customizations to the DSdir.sh file. Open it in your text editor of choice, and you should see some user-specific options that can be modified.
-*  `dsdir` - Set this to your personal Data Structures directory
+*  `dsdir` - Set this to your personal homework directory for the class
 * `hwstring` - If you tend to name your homework folders something like 'hw1' or 'homework_1', then set this string to 'hw' or 'homework_', or whatever prefix you like.
 * `zipstring` - If the provided files for each assignment are in the future kept in a zipfile called something other than "provided_files.zip", then you can change this to the appropriate name.
 * `pdfstring` - If the homework instructions for each assignment are in the future in some pdf file called something other than 'hw.pdf', you can change this value to the appropriate file name.
@@ -33,7 +37,7 @@ For example, `ds 3` will take me to the directory for homework 3.
 
 If there is no such directory, it will ask whether you want to make a new one. If you do, and dsclone is set to `true`, it will ask for the link to the pdf associated with this homework, and then set up the directory automatically. It should also show you the converted pdf, and list the unzipped contents of the folder.
 
-If dsclone is set to `false`, it will simply make the directory and navigate you to it. If you have the instructional pdf and/or provided zipfile in your Data Structures directory, it will move those to the new directory and unzip/convert them.b
+If dsclone is set to `false`, it will simply make the directory and navigate you to it. If you have the instructional pdf and/or provided zipfile in your Homework directory, it will move those to the new directory and unzip/convert them.b
 
 ### Also
 If you use this script, and you use VIM, one additional functionality I reccomend is to bind a key to view the instructions. I have the following bind set:
