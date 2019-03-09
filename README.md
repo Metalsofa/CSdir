@@ -20,6 +20,8 @@ alias csdir='cd /path/to/installation/directory/CSdir/;. ./CSdir.sh'
 ~~~~
 If you don't want to take up the name 'csdir' for your aliases (or if you maybe want something shorter), you can change it to something else. This can always be changed later.
 
+Next be sure to follow the *customization* steps, because the default values for this probably won't perfectly line up with your setup or the file structure you have in mind.
+
 ### Customization
 Then it's time to make some customizations to the CSdir.sh file. Open it in your text editor of choice, and you should see some user-specific options that can be modified.
 *  `hwdir` - Set this to your personal homework directory for the class
