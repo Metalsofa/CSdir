@@ -6,6 +6,8 @@ This script does nothing other than file management, conversion, and navigation;
 Presently it only supports one CSCI class at a time.
 
 ## Installation ##
+*Note: This will not run properly if you do not have the required packages, listed at the bottom of this README document*
+
 In bash, type the following commands from whatever directory you wish to install this to (mine is in the root because I'm lazy)
 ~~~~
 git clone https://github.com/Metalsofa/CSdir
