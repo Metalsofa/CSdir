@@ -7,18 +7,23 @@ vim=false
 #------------USER-SPECIFIC OPTIONS------------
 # Change this to your Homework path for the concerned class
 hwdir="/mnt/c/ds/"
+
 # Change this to the name of your course
 coursename="Data Structures"
+
 # Change this to the string you use to prefix your homeworks.
 # If this is set to "hw", then it is assumed you name your homework folders
 # as "hw1", "hw2", and so on.
 hwstring="hw"
+
 # Set this to whatever the current professor is calling the provided zipfile
 # for each homework assignment. For me, it was "provided_files.zip"
 zipstring="provided_files.zip"
+
 # Set this to whatever the current professor is calling the provided pdf file
 # For me, it was "hw.pdf"
 pdfstring="hw.pdf"
+
 # Set this to TRUE if you want to enable cloning provided files directly from the 
 # course site, or FALSE if that scares you (no shame in that)
 autoclone=true
@@ -97,5 +102,7 @@ else
 		fi
 		echo "Finished directory setup for Homework $hwnum"
 		ls
+	else
+		cd -
 	fi
 fi
