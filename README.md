@@ -36,11 +36,11 @@ Then it's time to make some customizations to the CSdir.sh file (located whereve
 Then you should be good to go!
 
 ## Usage
-The syntax for this script is as follows:
+To activate this script, just type the following command from any directory:
 
 `csdir <hwnum>`
 
-For example, `csdir 3` will take me to the directory for homework 3.
+For example, `csdir 3` will take me to the directory for homework 3, if there is one.
 
 If there is no such directory, it will ask whether you want to make a new one. If you do, and dsclone is set to `true`, it will ask for the link to the pdf associated with this homework, and then set up the directory automatically. It should also show you the converted pdf, and list the unzipped contents of the folder.
 
