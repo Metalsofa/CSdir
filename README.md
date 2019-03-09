@@ -21,7 +21,7 @@ alias csdir='cd /path/to/installation/directory/CSdir/;. ./CSdir.sh'
 ~~~~
 If you don't want to take up the name 'csdir' for your aliases (or if you maybe want something shorter), you can change it to something else. This can always be changed later.
 
-**If you ever get tired of having this command available, just delete this line.**
+**If you ever get tired of having this command available, just delete this line.** You can even delete the repository you cloned to remove all traces of this script from your computer.
 
 Also, you'll have to close and re-open the shell in order for this aliasing to take effect.
 
