@@ -8,7 +8,8 @@ Presently it only supports one CSCI class at a time.
 ## Installation ##
 *Note: This will not run properly if you do not have the required packages, listed at the bottom of this README document*
 
-In bash, type the following commands from whatever directory you wish to install this to (mine is in the root because I'm lazy)
+First navigate in bash to whatever directory you wish to install this to, then enter the following commands from there.
+
 ~~~~
 git clone https://github.com/Metalsofa/CSdir
 cd CSdir
