@@ -26,7 +26,7 @@ Also, you'll have to close and re-open the shell in order for this aliasing to t
 Next be sure to follow the *customization* steps, because the default values for this probably won't perfectly line up with your setup or the file structure you have in mind.
 
 ### Customization
-Then it's time to make some customizations to the CSdir.sh file (located wherever you cloned the repository to in step 1). Open it in your text editor of choice, and you should see some user-specific options that can be modified.
+It's time to make some customizations to the CSdir.sh file (located wherever you cloned the repository to in step 1). Open it in your text editor of choice, and you should see some user-specific options that can be modified.
 * `hwdir` - Set this to your personal homework directory for the class
 * `hwstring` - If you tend to name your homework folders something like 'hw1' or 'homework_1', then set this string to 'hw' or 'homework_', or whatever prefix you like.
 * `zipstring` - If the provided files for each assignment are kept in a zipfile called something other than "provided_files.zip", then you can change this to the appropriate name.
