@@ -46,7 +46,7 @@ For example, `csdir 3` will take me to the directory for homework 3, if there is
 
 If there is no such directory, it will ask whether you want to make a new one. If you do, and dsclone is set to `true`, it will ask for the link to the pdf associated with this homework, and then set up the directory automatically. It should also show you the converted pdf, and list the unzipped contents of the folder.
 
-If csclone is set to `false`, it will simply make the directory and navigate you to it. If you have the instructional pdf and/or provided zipfile in your Homework directory, it will move those to the new directory and unzip/convert them.b
+If autoclone is set to `false`, it will simply make the directory and navigate you to it. If you have the instructional pdf and/or provided zipfile in your Homework directory, it will move those to the new directory and unzip/convert them.b
 
 ### Also
 If you use this script, and you use VIM, one additional functionality I reccomend is to bind a key to view the instructions. I have the following bind set:
