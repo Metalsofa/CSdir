@@ -21,6 +21,8 @@ alias csdir='cd /path/to/installation/directory/CSdir/;. ./CSdir.sh'
 ~~~~
 If you don't want to take up the name 'csdir' for your aliases (or if you maybe want something shorter), you can change it to something else. This can always be changed later.
 
+Also, you'll have to close and re-open the shell in order for this aliasing to take effect.
+
 Next be sure to follow the *customization* steps, because the default values for this probably won't perfectly line up with your setup or the file structure you have in mind.
 
 ### Customization
