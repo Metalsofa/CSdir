@@ -15,7 +15,7 @@ git clone https://github.com/Metalsofa/CSdir
 cd CSdir
 chmod -x CSdir.sh
 ~~~~
-Then, in your `.bashrc` file, add the following line at the bottom (or wherever your put your aliases), of course modified to the location you chose (The final folder in the path should still be 'CSdir' since that's the repository name):
+Then, in your `.bashrc` file, add the following line at the bottom (or wherever your put your aliases), of course **modified to the location you chose** (The final folder in the path should still be 'CSdir' since that's the repository name):
 ~~~~
 alias csdir='cd /path/to/installation/directory/CSdir/;. ./CSdir.sh'
 ~~~~
