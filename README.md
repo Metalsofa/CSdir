@@ -24,11 +24,11 @@ Next be sure to follow the *customization* steps, because the default values for
 
 ### Customization
 Then it's time to make some customizations to the CSdir.sh file. Open it in your text editor of choice, and you should see some user-specific options that can be modified.
-*  `hwdir` - Set this to your personal homework directory for the class
+* `hwdir` - Set this to your personal homework directory for the class
 * `hwstring` - If you tend to name your homework folders something like 'hw1' or 'homework_1', then set this string to 'hw' or 'homework_', or whatever prefix you like.
 * `zipstring` - If the provided files for each assignment are kept in a zipfile called something other than "provided_files.zip", then you can change this to the appropriate name.
 * `pdfstring` - If the homework instructions for each assignment are in some pdf file called something other than 'hw.pdf', you can change this value to the appropriate file name.
-* `csclone` - If this is set to false, then the script will not automatically download the provided files for assignments. The script will instead simply make the directory without downloading anything.
+* `autoclone` - If this is set to false, then the script will not automatically download the provided files for assignments. The script will instead simply make the directory without downloading anything.
 
 Then you should be good to go!
 
